@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <div className="App">
-      <input placeholder="Ex. Pedro..." 
+      <input placeholder="Your Question" 
       onChange = {(event) => {
         setName(event.target.value);}}
         />
