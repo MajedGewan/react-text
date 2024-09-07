@@ -8,7 +8,7 @@ function App() {
   const [avatarResponse, setAvatarResponse] = useState("")
   const fetchData = () =>
   {
-    Axios.post("https://avatarapi.onrender.com/seha/",{'input':name}).then((res) => setAvatarResponse(res.data)) ;
+    Axios.post("https://avatarapi.onrender.com/oman/",{'input':name}).then((res) => setAvatarResponse(res.data)) ;
   };
   return (
     <div className="App">
